@@ -1,15 +1,10 @@
-// C program to print 
-// ASCII Value of Character 
+// C program to print ASCII Value of Character 
 #include <stdio.h> 
-  
-// Driver code 
+   
 int main() 
 { 
-    char c = 'k'; 
-  
-    // %d displays the integer value of 
-    // a character 
-    // %c displays the actual character 
+    char c ;
+    scanf("%c",&c);
     printf("The ASCII value of %c is %d", c, c); 
     return 0; 
 }
